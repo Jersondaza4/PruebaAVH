@@ -7,7 +7,6 @@ from .serializers import PokemonSerializer
 class PokemonList(APIView):
     def get(self, request):
         pokemones = self.leer_pokemones()
-        print(pokemones)
 
         # Filtrar por tipo y/o número
         tipo = request.query_params.get('tipo')
@@ -25,7 +24,6 @@ class PokemonList(APIView):
         return Response(serializer.data)
 
     def leer_pokemones(self):
-        import csv
         pokemones = []
         with open('pokemones.csv', mode='r') as file:
             reader = csv.DictReader(file)
