@@ -1,0 +1,17 @@
+nombre, tipo, numero,
+Bulbasaur, planta, 1
+Squirtle, agua, 7
+Oddish, planta, 43
+Magmar, fuego, 126
+Bellsprout, planta, 69
+Charmander, fuego, 4
+Vulpix, fuego, 37
+Poliwag, agua, 60
+Magnemite, electrico, 81
+Tentacool, agua, 72
+Voltorb, electrico, 100
+Tangela, planta, 114
+Psyduck, agua, 54
+Growlithe, fuego, 58
+Pikachu, electrico, 25
+Electabuzz, electrico, 125
